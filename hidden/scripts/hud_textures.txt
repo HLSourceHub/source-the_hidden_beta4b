@@ -181,75 +181,75 @@
 		}
 		"d_knife"
 		{
-				"file"		"sprites/hdn_sprites"
+				"file"		"vgui/hud/kabar"
 				"x"			"0"
 				"y"			"0"
-				"width"		"72"
-				"height"	"24"
+				"width"		"256"
+				"height"	"64"
 		}
 		"d_pistol"
 		{
-				"file"		"sprites/hdn_sprites"
+				"file"		"vgui/hud/fiveseven"
 				"x"			"0"
-				"y"			"24"
-				"width"		"40"
-				"height"	"24"
+				"y"			"0"
+				"width"		"128"
+				"height"	"64"
 		}
 		"d_pistol2"
 		{
-				"file"		"sprites/hdn_sprites"
+				"file"		"vgui/hud/fnp9"
 				"x"			"0"
-				"y"			"149"
-				"width"		"36"
-				"height"	"24"
+				"y"			"0"
+				"width"		"128"
+				"height"	"64"
 		}
 		"d_p90"
 		{
-				"file"		"sprites/hdn_sprites"
+				"file"		"vgui/hud/fnp90"
 				"x"			"0"
-				"y"			"48"
-				"width"		"64"
-				"height"	"24"
+				"y"			"0"
+				"width"		"256"
+				"height"	"64"
 		}
 		"d_shotgun"
 		{
-				"file"		"sprites/hdn_sprites"
+				"file"		"vgui/hud/870mcs"
 				"x"			"0"
-				"y"			"72"
-				"width"		"100"
-				"height"	"24"
+				"y"			"0"
+				"width"		"256"
+				"height"	"64"
 		}
 		"d_grenade_projectile"
 		{
-				"file"		"sprites/hdn_sprites"
+				"file"		"vgui/hud/pipebomb"
 				"x"			"0"
-				"y"			"96"
-				"width"		"48"
-				"height"	"24"
+				"y"			"0"
+				"width"		"128"
+				"height"	"64"
 		}
 		"d_physics"
 		{
-				"file"		"sprites/hdn_sprites"
+				"file"		"vgui/hud/physkill"
 				"x"			"0"
-				"y"			"173"
-				"width"		"44"
-				"height"	"24"
+				"y"			"0"
+				"width"		"128"
+				"height"	"64"
 		}
 		"d_fn2000"
 		{
-				"file"		"sprites/hdn_sprites"
+				"file"		"vgui/hud/fn2000"
 				"x"			"0"
-				"y"			"221"
-				"width"		"64"
-				"height"	"24"
+				"y"			"0"
+				"width"		"256"
+				"height"	"64"
 		}
 		"d_fn303"
 		{
-				"file"		"sprites/hdn_sprites"
+				"file"		"vgui/hud/fn303"
 				"x"			"0"
-				"y"			"197"
-				"width"		"90"
-				"height"	"24"
+				"y"			"0"
+				"width"		"256"
+				"height"	"64"
 		}
 		"d_skull"
 		{
@@ -269,11 +269,11 @@
 		}
 		"microphone"
 		{
-				"file"		"sprites/hdn_sprites"
+				"file"		"vgui/hud/mic"
 				"x"			"0"
-				"y"			"119"
-				"width"		"30"
-				"height"	"30"
+				"y"			"0"
+				"width"		"64"
+				"height"	"64"
 		}
 		"item_battery"
 		{
@@ -395,11 +395,11 @@
 
 		"voice_self"
 		{
-				"file"		"sprites/hdn_sprites"
+				"file"		"vgui/hud/mic"
 				"x"			"0"
-				"y"			"119"
-				"width"		"30"
-				"height"	"30"
+				"y"			"0"
+				"width"		"64"
+				"height"	"64"
 		}
 		// Radar Textures
 		"AMarineIcon"
@@ -450,14 +450,6 @@
   		 		"y"      "0"
   		 		"width"      "512"
   				"height"   "256"
-		}
-		"IrisAmmo"
-		{
-   				"file"      "vgui/hud/hdn_irisammo"
-  		 		"x"      "0"
-  		 		"y"      "0"
-  		 		"width"      "256"
-  				"height"   "64"
 		}
 		"IrisTimer"
 		{
@@ -510,6 +502,14 @@
 		"HiddenStaminabar"
 		{
 				"file"      "vgui/hud/hdn_staminabar"
+  		 		"x"      "0"
+  		 		"y"      "0"
+  		 		"width"      "256"
+  				"height"   "32"
+		}
+		"IrisButtonBar"
+		{
+   				"file"      "vgui/hud/hdn_timerbar"
   		 		"x"      "0"
   		 		"y"      "0"
   		 		"width"      "256"

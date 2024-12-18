@@ -3,7 +3,14 @@
 	"$basetexture" "models\weapons\v_hands\marine_hands"
 	"$bumpmap" "models\weapons\v_hands\marine_hands_Normal"
 	"$envmap" "env_cubemap"
-	"$envtint" "[.2 .2 .2]"
+	"$envtint" "[.3 .3 .3]"
+	"$envmapsaturation" .5
 	"$envmapcontrast" 1
 	"$normalmapalphaenvmapmask" 1
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "1"
+	"$phongexponent"  "85"
+	"$phongboost"	"4"
+	"$phongfresnelranges"	"[1 0.4 1]"
 }
